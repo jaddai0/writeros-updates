@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "plugins": [
+    {
+      "id": "scene-checker",
+      "name": "Scene Checker",
+      "version": "1.0.0",
+      "description": "Builds a focused revision checklist for a scene.",
+      "author": "WriterOS",
+      "toolset": "creative",
+      "entry": "index.js",
+      "capabilities": ["tool:register"],
+      "sourceUrl": "https://raw.githubusercontent.com/jaddai0/writeros-updates/main/plugins/scene-checker/index.js",
+      "sourceSha256": "bad0e69a5ec371d8326faccdebe86df3a96954b0826a20792f6465a7879fa49e"
+    },
+    {
+      "id": "citation-checker",
+      "name": "Citation Checker",
+      "version": "1.0.0",
+      "description": "Reports which common citation details are missing.",
+      "author": "WriterOS",
+      "toolset": "technical",
+      "entry": "index.js",
+      "capabilities": ["tool:register"],
+      "sourceUrl": "https://raw.githubusercontent.com/jaddai0/writeros-updates/main/plugins/citation-checker/index.js",
+      "sourceSha256": "d67eced5c64a230f36ff8cd398e959ab5927c1a80085b0decc9a0f466ddd1b18"
+    }
+  ]
+}
